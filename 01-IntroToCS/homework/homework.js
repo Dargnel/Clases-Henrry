@@ -20,7 +20,7 @@ function DecimalABinario(num) {
 
   var resultado = '';
   while (num >= 0.5){
-    resultado =resultado + (num % 2);
+    resultado = resultado + (num % 2);
     num = Math.trunc(num/2);
   }
   return resultado.split("").reverse().join("");;
