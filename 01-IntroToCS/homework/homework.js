@@ -5,7 +5,6 @@ function BinarioADecimal(num) {
 
   var reves= num.split("").reverse().join("");
   var resultado = 0;
-
   for (var i = 0;i < reves.length;i++){
     resultado = resultado +( reves.charAt(i)* (Math.pow(2,i)) )
 
@@ -14,6 +13,9 @@ function BinarioADecimal(num) {
 
 
 }
+
+console.log(BinarioADecimal('111111'));
+
 
 function DecimalABinario(num) {
   // tu codigo aca
