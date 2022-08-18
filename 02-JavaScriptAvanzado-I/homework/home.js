@@ -144,7 +144,7 @@ console.log(obj.prop.getFullname());//Aurelio de rosa
 
 var test = obj.prop.getFullname;
 
-console.log(test());//undefine
+console.log(test());//Juan Perez
 // ```
 
 // ### Event loop
